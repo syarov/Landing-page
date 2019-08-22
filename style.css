@@ -46,6 +46,7 @@ li {
 }
 
 .atasan {
+    height: 550px;
     position: fixed;
     text-align: center;
     border: 3px solid black;
@@ -59,7 +60,7 @@ li {
 }
 
 input {
-    display:block-inline;
+    display: block-inline;
     margin-bottom: 20px;
     border-radius: 4px;
     width: 50%;
