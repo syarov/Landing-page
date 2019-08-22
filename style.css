@@ -36,17 +36,7 @@ body {
     padding: 10px 10px 10px 10px;
 }
 
-.ending {
-display: flex;
-position: static;
-justify-content: center;
 
-}
-
-footer h3 {
-    text-align: center;
-    display: block;
-}
 /* ini buah newsletter */
 h1 {
     font-size: 40px;
