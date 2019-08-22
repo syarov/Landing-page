@@ -12,6 +12,8 @@ body {
     border-radius: 15px;
     margin-left: 100px;
     margin-right: 100px;
+    background-color: white;
+    opacity: 0.75;
 }
 
 /* ini buah newsletter */
