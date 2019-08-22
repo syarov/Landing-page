@@ -58,6 +58,14 @@ li {
     padding: 10px 10px 10px 10px;
 }
 
+input {
+    display:block-inline;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    width: 50%;
+    padding: 10px 20px
+}
+
 
 /* ini buah newsletter */
 h1 {
