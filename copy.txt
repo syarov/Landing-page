@@ -1,0 +1,17 @@
+.ending {
+display: flex;
+position: static;
+justify-content: center;
+.
+}
+
+footer h3 {
+    text-align: center;
+    display: block;
+}
+
+<footer>
+    <h3>Contact</h3>
+    <h3>Location</h3>
+    <h3>Privacy Policy</h3>
+  </footer>
