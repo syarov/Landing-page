@@ -3,7 +3,21 @@
     padding: 0;
 }
 
-h1 {
-    font-family: Helvetica;
-    font-size: 48
+
+
+body {
+    background-image: url('img/Background.png');
 }
+
+.atasan {
+    border: 3px solid black;
+    border-radius: 15px;
+    margin-top: 200px;
+    margin-left: 600px;
+    margin-right: 400px;
+    background-color: white;
+    opacity: 0.75;
+    padding: 10px 10px 10px 10px;
+}
+
+/* ini buah newsletter */
