@@ -12,6 +12,15 @@ body {
     background-size: auto;
 
 }
+.imgbox {
+    display: grid;
+    height: 100%;
+}
+.center-fit {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
 
 .atasan {
     position: fixed;
@@ -22,7 +31,7 @@ body {
     margin-left: 600px;
     margin-right: 400px;
     background-color: white;
-    opacity: 0.75;
+    opacity: 1;
     padding: 10px 10px 10px 10px;
 }
 
