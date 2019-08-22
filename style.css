@@ -10,11 +10,12 @@ body {
 }
 
 header {
-    background-color: #466995;
+    background-color: #0056b8;
     border-bottom: 1px solid #466995;
     position: fixed;
     width: 100%;
-    z-index: 10; 
+    z-index: 10;
+    opacity: 0.3; 
   }
 
 ul {
@@ -26,11 +27,20 @@ ul {
 li {
     display: inline-block;
     width: 200px;
-    color: #FFF;
+    color: #f8c21d;
     font-family: 'Helvetica', sans-serif;
     font-size: 32px;
     font-weight: 300;
     text-transform: uppercase;        
+}
+
+a {
+
+    color: #f8c21d;
+    font-family: 'roboto';
+    font-size: 24px;
+    font-weight: 1000;
+    opacity: 1;
 }
 
 .imgbox {
