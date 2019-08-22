@@ -35,6 +35,20 @@ body {
     padding: 10px 10px 10px 10px;
 }
 
+<<<<<<< HEAD
+.ending {
+display: flex;
+position: relative;
+justify-content: center;
+
+}
+
+footer h3 {
+    text-align: center;
+    display: block;
+}
+/* ini buah newsletter */
+=======
 h1 {
     font-size: 40px;
     font-weight: bold;
@@ -44,3 +58,4 @@ h1 {
 p {
     font-style: italic;
 }
+>>>>>>> 9e54af60f7bee21e84b71ef063ff338f2409a82b
