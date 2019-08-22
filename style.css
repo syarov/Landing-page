@@ -59,6 +59,12 @@ a {
     margin: auto;
 }
 
+.container {
+    justify-items: center;
+    align-items: center;
+    display: flex;
+} 
+
 .atasan {
     height: 550px;
     position: absolute;
@@ -70,7 +76,6 @@ a {
     margin-right: 400px;
     background-color: white;
     opacity: 1;
-    padding: 10px 10px 10px 10px;
 }
 
 input {
@@ -92,3 +97,4 @@ h1 {
 p {
     font-style: italic;
 }
+ 
