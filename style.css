@@ -1,21 +1,23 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans';
 }
 
 body {
     background-image: url('img/Background.png');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     margin-bottom: 0%;
 }
 
 header {
     background-color: #0056b8;
+    display: inline-block;
     border-bottom: 1px solid #466995;
     position: fixed;
     width: 100%;
-    height: 9%;
+    height: 10%;
     z-index: 1; 
   }
 
@@ -26,25 +28,25 @@ ul {
 }
       
 li {
+    font-family: 'Open Sans';
+    top : 10px;
     display: inline-block;
     width: 200px;
-    color: #f8c21d;
-    font-family: 'Helvetica', sans-serif;
     font-size: 28px;
     font-weight: 400;
     margin-top: 0px;
     position: relative;
-    text-transform: uppercase;        
+    text-transform: uppercase;     
 }
 
-a {
 
+a {
+    text-decoration: none;
     color: #f8c21d;
-    font-family: 'roboto';
-    font-size: 24px;
+    font-family: 'Open Sans';
+    font-size: 32px;
     font-weight: 1000;
     opacity: 1;
-    position: relative;
 }
 
 .imgbox {
@@ -66,6 +68,8 @@ a {
 } 
 
 .atasan {
+    letter-spacing: 1.5px;
+    font-family: 'Open Sans';
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
@@ -108,3 +112,12 @@ p {
 .kotak-2 {
     
 }
+
+/* font */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
