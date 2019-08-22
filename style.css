@@ -5,21 +5,36 @@
 
 
 
+
 body {
     background-image: url('img/Background.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+
+}
+.imgbox {
+    display: grid;
+    height: 100%;
+}
+.center-fit {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
 }
 
 .atasan {
+    text-align: center;
     border: 3px solid black;
     border-radius: 15px;
     margin-top: 200px;
     margin-left: 600px;
     margin-right: 400px;
     background-color: white;
-    opacity: 0.75;
+    opacity: 1;
     padding: 10px 10px 10px 10px;
 }
 
+<<<<<<< HEAD
 .ending {
 display: flex;
 position: relative;
@@ -32,3 +47,14 @@ footer h3 {
     display: block;
 }
 /* ini buah newsletter */
+=======
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+p {
+    font-style: italic;
+}
+>>>>>>> 9e54af60f7bee21e84b71ef063ff338f2409a82b
