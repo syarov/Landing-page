@@ -96,7 +96,19 @@ a {
     transition : 0.3s;
     cursor: pointer;
 
-} [value="Subscribe"]:hover {opacity: 1;} 
+}
+
+[value="Subscribe"]:hover {opacity: 1;} {
+
+}
+
+[alt="LinkedIn"] {
+    cursor: pointer;
+}
+
+.media sosial:hover {opacity: 1;} {
+
+}
 
 
 
