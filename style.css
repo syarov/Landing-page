@@ -1,6 +1,10 @@
-*{
-    margin: 0;
+*{img
     padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+
 }
 
 
@@ -9,7 +13,7 @@
 body {
     background-image: url('img/Background.png');
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 100%;
 
 }
 .imgbox {
@@ -18,7 +22,7 @@ body {
 }
 .center-fit {
     max-width: 100%;
-    max-height: 100vh;
+    max-height: 100%;
     object-fit: cover;
     margin: auto;
 }
@@ -35,6 +39,20 @@ body {
     padding: 10px 10px 10px 10px;
 }
 
+<<<<<<< HEAD
+.ending {
+display: flex;
+position: relative;
+justify-content: center;
+
+}
+
+footer h3 {
+    text-align: center;
+    display: block;
+}
+/* ini buah newsletter */
+=======
 h1 {
     font-size: 40px;
     font-weight: bold;
@@ -44,3 +62,4 @@ h1 {
 p {
     font-style: italic;
 }
+>>>>>>> 9e54af60f7bee21e84b71ef063ff338f2409a82b
