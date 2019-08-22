@@ -13,8 +13,8 @@ header {
     background-color: #466995;
     border-bottom: 1px solid #466995;
     position: fixed;
-    width: 100%;
-    z-index: 10; 
+    top: 0;
+    width: 100%; 
   }
 
 ul {
@@ -46,7 +46,11 @@ li {
 }
 
 .atasan {
+<<<<<<< HEAD
     height: 550px;
+=======
+    display:inline-block
+>>>>>>> c3ae5e14a3ca23b19c4b28b28b9092bda5b9b75d
     position: fixed;
     text-align: center;
     border: 3px solid black;
