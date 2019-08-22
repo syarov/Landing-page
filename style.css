@@ -5,11 +5,16 @@
 
 
 
+
 body {
     background-image: url('img/Background.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+
 }
 
 .atasan {
+    text-align: center;
     border: 3px solid black;
     border-radius: 15px;
     margin-top: 200px;
@@ -20,4 +25,12 @@ body {
     padding: 10px 10px 10px 10px;
 }
 
-/* ini buah newsletter */
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+p {
+    font-style: italic;
+}
