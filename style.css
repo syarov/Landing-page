@@ -3,6 +3,17 @@
     padding: 0;
 }
 
+/* coba */
+html { 
+    background-image: url('img/Background.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+/* coba */
+
+
 body {
     background-image: url('img/Background.png');
 }
@@ -15,6 +26,7 @@ body {
     margin-right: 400px;
     background-color: white;
     opacity: 0.75;
+    padding: 10px 10px 10px 10px;
 }
 
 /* ini buah newsletter */
