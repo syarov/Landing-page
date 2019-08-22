@@ -14,8 +14,7 @@ header {
     border-bottom: 1px solid #466995;
     position: fixed;
     width: 100%;
-    z-index: 10;
-    opacity: 0.3; 
+    z-index: 10; 
   }
 
 ul {
@@ -56,6 +55,11 @@ a {
 }
 
 .atasan {
+<<<<<<< HEAD
+    height: 550px;
+=======
+    display:inline-block
+>>>>>>> c3ae5e14a3ca23b19c4b28b28b9092bda5b9b75d
     position: fixed;
     text-align: center;
     border: 3px solid black;
@@ -69,7 +73,7 @@ a {
 }
 
 input {
-    display:block-inline;
+    display: block-inline;
     margin-bottom: 20px;
     border-radius: 4px;
     width: 50%;
