@@ -4,12 +4,13 @@
 }
 
 body {
-    background-image: url('img/Background.png')
+    background-image: url('img/Background.png');
 }
 
 .atasan {
     border: 3px solid black;
     border-radius: 15px;
+    margin-top: 200px;
     margin-left: 100px;
     margin-right: 100px;
     background-color: white;
