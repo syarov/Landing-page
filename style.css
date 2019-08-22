@@ -45,22 +45,22 @@ li {
     margin: auto;
 }
 
+.container {
+    justify-items: center;
+    align-items: center;
+    display: flex;
+} 
+
 .atasan {
-<<<<<<< HEAD
-    height: 550px;
-=======
-    display:inline-block
->>>>>>> c3ae5e14a3ca23b19c4b28b28b9092bda5b9b75d
-    position: fixed;
+    height: 590px;
     text-align: center;
     border: 3px solid black;
     border-radius: 15px;
-    margin-top: 200px;
-    margin-left: 600px;
-    margin-right: 400px;
+    margin-top: 150px;
+    margin-left: 450px;
+    margin-right: 100px;
     background-color: white;
     opacity: 1;
-    padding: 10px 10px 10px 10px;
 }
 
 input {
@@ -82,3 +82,4 @@ h1 {
 p {
     font-style: italic;
 }
+ 
