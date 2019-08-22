@@ -20,4 +20,15 @@ body {
     padding: 10px 10px 10px 10px;
 }
 
+.ending {
+display: flex;
+position: relative;
+justify-content: center;
+
+}
+
+footer h3 {
+    text-align: center;
+    display: block;
+}
 /* ini buah newsletter */
