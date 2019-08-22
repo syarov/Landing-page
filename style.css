@@ -7,6 +7,7 @@ body {
     background-image: url('img/Background.png');
     background-repeat: no-repeat;
     background-size: 100%;
+    margin-bottom: 0%;
 }
 
 header {
@@ -14,11 +15,12 @@ header {
     border-bottom: 1px solid #466995;
     position: fixed;
     width: 100%;
-    z-index: 10; 
+    height: 9%;
+    z-index: 1; 
   }
 
 ul {
-    margin: 30px auto;
+    margin: 10px auto;
     padding: 0 20px;
     text-align: center;
 }
@@ -28,8 +30,10 @@ li {
     width: 200px;
     color: #f8c21d;
     font-family: 'Helvetica', sans-serif;
-    font-size: 32px;
-    font-weight: 300;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 0px;
+    position: relative;
     text-transform: uppercase;        
 }
 
@@ -40,6 +44,7 @@ a {
     font-size: 24px;
     font-weight: 1000;
     opacity: 1;
+    position: relative;
 }
 
 .imgbox {
@@ -55,17 +60,13 @@ a {
 }
 
 .atasan {
-<<<<<<< HEAD
     height: 550px;
-=======
-    display:inline-block
->>>>>>> c3ae5e14a3ca23b19c4b28b28b9092bda5b9b75d
-    position: fixed;
+    position: absolute;
     text-align: center;
     border: 3px solid black;
     border-radius: 15px;
     margin-top: 200px;
-    margin-left: 600px;
+    margin-left: 400px;
     margin-right: 400px;
     background-color: white;
     opacity: 1;
